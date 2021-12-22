@@ -1,0 +1,26 @@
+.selected-products {
+  min-height: 12rem;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+.selected-products .metric {
+  min-width: 220px;
+  background-color: gray;
+  border: 1px solid black;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected-products .metric > span {
+  font-size: 2rem;
+  display: block;
+  margin-top: 1rem;
+}

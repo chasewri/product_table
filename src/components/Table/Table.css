@@ -1,0 +1,49 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  min-width: 6rem;
+  max-width: 6rem;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 2px solid transparent;
+  text-align: center;
+}
+
+.table th {
+  border-top: 2px solid darkgray;
+}
+
+.table td.red-background {
+  background-color: lightcoral;
+}
+
+.table td.lightgreen-background {
+  background-color: lightgreen;
+}
+
+.table tbody tr {
+  cursor: pointer;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid darkgray;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: #f5f5f5;
+}
+
+.table tr td.selected {
+  border: 2px solid blue;
+}

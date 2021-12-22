@@ -1,0 +1,15 @@
+.priceSelect {
+  width: 100%;
+  display: flex;
+  min-height: 10vmin;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.priceSelect select {
+  min-height: 3rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0 13px;
+  border-radius: 4px;
+}
